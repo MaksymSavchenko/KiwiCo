@@ -1,0 +1,10 @@
+KiwiCo: --tags @KiwiCo --format html --out report.html --format pretty
+
+
+
+
+
+
+
+
+all_tests: --tags @regression --format html --out report.html --format pretty

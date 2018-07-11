@@ -1,0 +1,13 @@
+
+find_elements(xpath: "/html/body/div[2]/div/a").size
+
+element = find_element(xpath: "/html/body/div[2]/div/a")
+driver.action.move_to(element, 0, 479).click.perform
+
+
+element = driver.find_element(:xpath, canvas_xpath)
+element.location
+driver.action.move_to(element).perform
+driver.action.move_by(20, 479).click.perform
+
+element = find_element(xpath: "//*[@id="lightboxsubmit"]").click
